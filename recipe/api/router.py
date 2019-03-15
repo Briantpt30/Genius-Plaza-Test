@@ -1,7 +1,5 @@
-from django.conf.urls import url, include
-from django.contrib.auth.models import User
 from rest_framework import routers
-from .viewset import UserViewSet, RecipeViewSet , IngredientViewSet, StepViewSet
+from .viewset import UserViewSet, RecipeViewSet, IngredientViewSet, StepViewSet
 
 router = routers.DefaultRouter()
 
